@@ -25,8 +25,8 @@ SECRET_KEY = "django-insecure-pao(3_r!s$bi#%y3f)o7%h7#-d-oq-tvmd&*o=!k#dvc=*&)fs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['glorious-space-yodel-vxg759xx6q72px7-8000.app.github.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
